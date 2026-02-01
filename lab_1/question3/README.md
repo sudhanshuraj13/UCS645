@@ -38,10 +38,3 @@ Thread creation and synchronization overhead impacts execution time significantl
 The computation correctly produces pi to 10 decimal places across all thread configurations.
 Load balancing is naturally achieved through the parallel for construct.
 
-## 5. Amdahl's Law Interpretation
-The parallel fraction is very high as the computation loop dominates execution time.
-Theoretical speedup is limited by thread creation and reduction overhead.
-The algorithm demonstrates good scalability up to the number of physical cores.
-Reduction operation introduces a small sequential component for combining results.
-Demonstrates that even highly parallel algorithms require consideration of overhead costs.
-Performance characteristics depend on the ratio of computation to synchronization overhead.

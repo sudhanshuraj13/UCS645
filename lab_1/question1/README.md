@@ -38,8 +38,3 @@ Thread creation and synchronization overhead becomes significant for small array
 Efficiency decreases as thread count increases due to diminishing returns from parallelization.
 The operation benefits from parallelization but is constrained by memory access patterns.
 
-## 5. Amdahl's Law Interpretation
-The parallel fraction is high, but memory bandwidth limits achievable speedup.
-Speedup plateaus after a certain number of threads due to memory bandwidth saturation.
-The sequential portion includes array initialization and memory allocation overhead.
-Demonstrates that memory-bound operations have different scaling characteristics than compute-bound tasks.

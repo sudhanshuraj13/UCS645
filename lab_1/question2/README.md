@@ -64,10 +64,3 @@ Performance peaks around 6-8 threads and degrades slightly with 9 threads.
 Thread scheduling overhead and cache effects influence performance at higher thread counts.
 The 2D approach generally provides better load balancing across threads.
 Cache locality plays a significant role in matrix multiplication performance.
-
-## 5. Amdahl's Law Interpretation
-Matrix multiplication has a high parallel fraction, enabling significant speedup.
-Both approaches show diminishing returns beyond 7 threads due to overhead.
-The sequential portion includes matrix initialization and memory allocation.
-Load imbalance becomes more pronounced with certain thread counts.
-Demonstrates that parallelization strategy impacts performance for nested loop structures.
