@@ -241,9 +241,6 @@ lab_3/
 ├── main.cpp                   # Driver with automated benchmarking
 ├── Makefile                   # Build configuration (g++ -O3 -fopenmp)
 ├── README.md                  # Documentation (this file)
-├── PERF_8THREADS_REPORT.md   # Detailed 8-thread performance analysis
-├── WSL_USAGE_GUIDE.md        # Complete WSL setup and usage guide
-└── perf_8threads.sh          # Automated performance testing script
 ```
 
 ---
